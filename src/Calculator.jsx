@@ -24,8 +24,8 @@ function Calculator() {
   };
 
   const evaluateExpression = (expression) => {
-    const sanitizedExpression = expression.replace(/\s/g, ''); 
-    return eval(sanitizedExpression); 
+    const sanitizedExpression = expression.replace(/\s/g, '');
+    return eval(sanitizedExpression);
   };
 
   return (
