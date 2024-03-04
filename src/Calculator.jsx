@@ -31,7 +31,7 @@ function Calculator() {
   return (
     <div className="container">
       <fieldset id="container">
-        <input id="display" type="text" value={input} readOnly />
+        <input id="display" type="text" value={input} onChange={(e) => setInput(e.target.value)} />
         <p>{output}</p>
 
         <div className="button-row">
