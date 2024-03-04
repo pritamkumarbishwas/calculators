@@ -29,8 +29,8 @@ function Calculator() {
   return (
     <div className="container">
       <fieldset id="container">
-        <input id="display" type="text" value={input} readOnly />
-
+        {/* <input id="display" type="text" value= readOnly /> */}
+        <div id="display">{input}</div>
         <div className="button-row">
           <button className="button digits" onClick={() => handleClick('1')}>1</button>
           <button className="button digits" onClick={() => handleClick('2')}>2</button>
