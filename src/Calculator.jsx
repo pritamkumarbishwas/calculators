@@ -32,7 +32,7 @@ function Calculator() {
     <div className="container">
       <fieldset id="container">
         <input id="display" type="text" value={input} onChange={(e) => setInput(e.target.value)} />
-        <div>{output}</div>
+        <div className='output'>{output}</div>
 
         <div className="button-row">
           <button className="button digits" onClick={() => handleClick('7')}>7</button>
